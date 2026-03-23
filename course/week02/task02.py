@@ -10,5 +10,5 @@ Vystup: 2.0
 """
 
 def solve(a, b, c):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    median=(a+b+c)/3
+    return median
