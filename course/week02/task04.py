@@ -10,5 +10,4 @@ Vystup: "ha-ha-ha"
 """
 
 def solve(text, n):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return "-".join([text]*n)
