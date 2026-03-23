@@ -10,5 +10,4 @@ Vystup: (1, 1, 1)
 """
 
 def solve(sekundy):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return (sekundy//3600,(sekundy%3600)//60,sekundy%60)
