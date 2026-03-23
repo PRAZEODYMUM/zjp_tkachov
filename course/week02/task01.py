@@ -10,5 +10,4 @@ Vystup: 7
 """
 
 def solve(a, b):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return a+b
