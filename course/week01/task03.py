@@ -10,5 +10,4 @@ Vystup: "D:/projekty/skola"
 """
 
 def solve(cesta):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return cesta.replace('\\','/')
