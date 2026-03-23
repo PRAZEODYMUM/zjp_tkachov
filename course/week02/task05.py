@@ -10,5 +10,6 @@ Vystup: 6
 """
 
 def solve(cisla):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    zoznam=list(cisla)
+    sucet=sum(int(n) for n in zoznam)
+    return sucet
