@@ -10,5 +10,7 @@ Vystup: True
 """
 
 def solve(n):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if (n*(-1)>0) or (n%2!=0):
+        return False
+    else:
+        return True
