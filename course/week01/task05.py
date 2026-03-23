@@ -10,5 +10,7 @@ Vystup: True
 """
 
 def solve(text):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if 'anaconda' in text.lower():
+        return True
+    else:
+        return False
