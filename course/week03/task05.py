@@ -10,5 +10,7 @@ Vystup: True
 """
 
 def solve(a, b, c):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if (a*(-1)<0 and b*(-1)<0 and c*(-1)<0) and (a+b>c and a+c>b and b+c>a):
+        return True
+    else:
+        return False
