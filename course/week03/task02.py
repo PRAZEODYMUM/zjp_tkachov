@@ -10,5 +10,11 @@ Vystup: 3
 """
 
 def solve(a, b, c):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    max=None
+    if a>b:
+        max=a
+    else:
+        max=b
+    if c>max:
+        max=c
+    return max
