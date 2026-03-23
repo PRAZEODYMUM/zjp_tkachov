@@ -8,7 +8,7 @@ Priklad:
 Vstup: "data.TXT"
 Vystup: "txt"
 """
-
+import os
 def solve(nazov):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    extention=os.path.splitext(nazov)[1][1:]
+    return extention.lower()
