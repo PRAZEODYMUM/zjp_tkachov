@@ -10,5 +10,4 @@ Vystup: True
 """
 
 def solve(rok):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return rok%4==0 and (rok%100!=0 or rok%400==0)
