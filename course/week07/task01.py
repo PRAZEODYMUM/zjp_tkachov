@@ -10,9 +10,8 @@ Vystup: passed() -> True
 """
 
 class Student:
-    """Reprezentuje študenta s menom a skóre."""
     def __init__(self, meno, skore):
-        raise NotImplementedError
-
+        self.meno=meno
+        self.skore=skore
     def passed(self, threshold=50):
-        raise NotImplementedError
+        return (self.skore>threshold)

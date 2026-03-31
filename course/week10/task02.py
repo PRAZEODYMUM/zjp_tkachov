@@ -12,5 +12,4 @@ Vystup: [[1, 3], [2, 4]]
 import numpy as np
 
 def solve(matrix):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return np.transpose(matrix)

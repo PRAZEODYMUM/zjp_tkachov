@@ -12,5 +12,5 @@ Vystup: "a"
 import random
 
 def solve(data, seed=0):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    random.seed(seed)
+    return random.choice(data)

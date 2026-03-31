@@ -6,7 +6,7 @@ ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 if ROOT not in sys.path:
     sys.path.insert(0, ROOT)
 
-from course.week07.task04 import Dog
+from course.week07.task04 import Dog, Animal
 
 class TestTask04(unittest.TestCase):
     def test_main(self):

@@ -12,5 +12,5 @@ Vystup: (2.0, 0.0)
 from scipy.stats import linregress
 
 def solve(x, y):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    result=linregress(x,y)
+    return (result.slope, result.intercept)

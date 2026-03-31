@@ -12,5 +12,10 @@ Vystup: [2, 1, 5, 4, 4]
 import random
 
 def solve(n, a, b, seed=0):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    li=[]
+    random.seed(seed)
+    i=1
+    while i<=n:
+        li.append(random.randint(a,b))
+        i+=1
+    return li

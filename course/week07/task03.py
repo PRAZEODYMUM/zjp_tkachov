@@ -10,12 +10,10 @@ Vystup: 12
 """
 
 class Rectangle:
-    """Obdĺžnik so šírkou a výškou."""
     def __init__(self, width, height):
-        raise NotImplementedError
-
+        self.width=width
+        self.height=height
     def area(self):
-        raise NotImplementedError
-
+        return (self.width*self.height)
     def perimeter(self):
-        raise NotImplementedError
+        return ((self.width*2)+(self.height*2))

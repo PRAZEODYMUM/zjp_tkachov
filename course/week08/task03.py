@@ -10,5 +10,8 @@ Vystup: "Ahoj Eva"
 """
 
 def prefix_text(prefix):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            return prefix + func(*args, **kwargs)
+        return wrapper
+    return decorator

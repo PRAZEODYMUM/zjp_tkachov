@@ -10,5 +10,7 @@ Vystup: 3
 """
 
 def assert_positive(n):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if n>0:
+        return n
+    else:
+        raise ValueError

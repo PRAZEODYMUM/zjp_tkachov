@@ -10,5 +10,4 @@ Vystup: 3
 """
 
 def solve(slovnik):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return sum(slovnik.values())

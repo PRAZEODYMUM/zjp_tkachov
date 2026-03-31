@@ -10,5 +10,9 @@ Vystup: 2
 """
 
 def solve(text):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    samohlasky={'a','e','i','o','u','y'}
+    i=0
+    for n in text:
+        if n.lower() in samohlasky:
+            i+=1
+    return i

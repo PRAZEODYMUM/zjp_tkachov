@@ -10,5 +10,7 @@ Vystup: [1, 4, 9]
 """
 
 def solve(cisla):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    m=[]
+    for n in cisla:
+        m.append(n**2)
+    return m

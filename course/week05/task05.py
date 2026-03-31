@@ -10,5 +10,8 @@ Vystup: [0, 2, 4]
 """
 
 def solve(zoznam):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    par=[]
+    for n in zoznam:
+        if zoznam.index(n)%2==0:
+            par.append(n)
+    return par

@@ -12,5 +12,5 @@ Vystup: riadky s 5 a 8
 import pandas as pd
 
 def solve(values, threshold):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    df=pd.DataFrame(values, columns=['v'])
+    return df[df['v']>threshold]

@@ -10,5 +10,5 @@ Vystup: 9
 """
 
 def solve(x):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    sqr=lambda x: x**2
+    return sqr(x+1)

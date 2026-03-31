@@ -10,5 +10,7 @@ Vystup: 6
 """
 
 def solve(cisla):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    sum=0
+    for n in cisla:
+        sum+=n
+    return sum

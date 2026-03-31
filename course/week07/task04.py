@@ -10,12 +10,8 @@ Vystup: "haf"
 """
 
 class Animal:
-    """Základné zviera."""
     def sound(self):
-        raise NotImplementedError
-
-
+        return 'ticho'
 class Dog(Animal):
-    """Pes."""
     def sound(self):
-        raise NotImplementedError
+        return 'haf'

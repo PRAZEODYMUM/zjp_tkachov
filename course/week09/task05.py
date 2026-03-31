@@ -8,7 +8,12 @@ Priklad:
 Vstup: [1, 2, 3, 4], 2
 Vystup: [1.5, 2.5, 3.5]
 """
-
+import numpy as np
 def solve(data, window):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if window>len(data):
+        return []
+    result=[]
+    for i in range((len(data)-window)+1):
+        avg=float(np.average(data[i:i+window]))
+        result.append(avg)
+    return result

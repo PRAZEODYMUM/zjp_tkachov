@@ -12,5 +12,5 @@ Vystup: 6
 import pandas as pd
 
 def solve(data):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    df=pd.DataFrame(data)
+    return df['a'].sum()

@@ -10,15 +10,13 @@ Vystup: 6
 """
 
 class Counter:
-    """Jednoduchý čítač."""
     def __init__(self, start=0):
-        raise NotImplementedError
-
+        self.start=start
     def inc(self):
-        raise NotImplementedError
-
+        self.start+=1
+        return self.start
     def dec(self):
-        raise NotImplementedError
-
+        self.start-=1
+        return self.start
     def value(self):
-        raise NotImplementedError
+        return self.start

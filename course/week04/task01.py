@@ -10,5 +10,4 @@ Vystup: (1, 5)
 """
 
 def solve(cisla):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return min(cisla), max(cisla)

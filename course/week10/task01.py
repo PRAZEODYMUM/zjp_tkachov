@@ -12,5 +12,4 @@ Vystup: 2.5
 import numpy as np
 
 def solve(values):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    return np.average(values)

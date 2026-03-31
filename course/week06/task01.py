@@ -10,5 +10,7 @@ Vystup: 120
 """
 
 def solve(n):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if n<1:
+        return 1
+    else:
+        return n*solve(n-1)

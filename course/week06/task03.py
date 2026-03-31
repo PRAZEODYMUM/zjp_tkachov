@@ -10,5 +10,5 @@ Vystup: [(3, 1), (2, 2), (1, 3)]
 """
 
 def solve(dvojice):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    srt=sorted(dvojice,key=lambda x: x[1])
+    return srt

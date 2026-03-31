@@ -10,5 +10,7 @@ Vystup: 5
 """
 
 def safe_divide(a, b):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    if b==0:
+        return None
+    else:
+        return a/b

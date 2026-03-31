@@ -12,5 +12,7 @@ Vystup: Figure
 import matplotlib.pyplot as plt
 
 def solve(x, y, title):
-    """Implementuj podľa zadania v hlavičke."""
-    raise NotImplementedError
+    fig, ax=plt.subplots()
+    ax.plot(x,y)
+    ax.set_title(title)
+    return fig
